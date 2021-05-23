@@ -13,7 +13,6 @@ var b4, b41, b42, b4b;
 var b54, b54Image, b51, b52, b53, b55;
 var cArrow, cArrowImage, rArrow, rArrowImage;
 var player1boyImage, player2boyImage, player1girlImage, player2girlImage, player1robotImage, player2robotImage;
-var fence, fenceImage;
 var p, pGroup;
 var dr, gos;
 var beg, begy, beg1, beg2, beg3, beg4;
@@ -56,7 +55,6 @@ function preload(){
   player2girlImage = loadAnimation("images/Girl2.png");
   player1robotImage = loadAnimation("images/Robot1.png");
   player2robotImage = loadAnimation("images/Robot2.png");
-  fenceImage = loadImage("images/fence.jpg");
   bg = loadImage("images/Plus.jpg");
   bgo = loadAnimation("Orange/O0.png","Orange/O1.png","Orange/O2.png","Orange/O3.png","Orange/O4.png","Orange/O5.png","Orange/O6.png","Orange/O7.png");
   bgc = loadAnimation("Cyan/C0.png","Cyan/C1.png","Cyan/C2.png","Cyan/C3.png","Cyan/C4.png","Cyan/C5.png","Cyan/C6.png","Cyan/C7.png","Cyan/C8.png","Cyan/C9.png","Cyan/C10.png","Cyan/C11.png","Cyan/C12.png","Cyan/C13.png","Cyan/C14.png","Cyan/C15.png","Cyan/C16.png","Cyan/C17.png","Cyan/C18.png","Cyan/C19.png");
